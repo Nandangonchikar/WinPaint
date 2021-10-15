@@ -1,0 +1,9 @@
+canvas{
+  width:75%;
+  height:75%;
+  border:1px solid black;
+  margin:0 50px;
+  align:center;
+  border-radius:10px;
+  padding:10px;
+}

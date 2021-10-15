@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>PaintWin</title>
+  </head>
+  <body>
+    <h1> PaintWin</h1>
+    <canvas id="can" onmousedown="startPaint()" onmousemove="doPaint(event.offsetX,event.offsetY)" onmouseup="endPaint()">     
+    </canvas>
+    <div>
+      Color:
+      <input type="color" id="clr" onchange="brushcolor()" >
+      Brush Size:
+      <input type="range" min="1" max="50" value="50" id="BrushSize" oninput="BrushsizeSelect(this.value)" >
+      <p><input type="button" value="Clear" onClick="clearCanvas()"></p>
+    </div>
+   </body> 
+</html>
