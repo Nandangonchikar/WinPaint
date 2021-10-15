@@ -1,5 +1,5 @@
 # Paint App
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/nandangonchikar/pen/wvqKRNp](https://codepen.io/nandangonchikar/pen/wvqKRNp).
+A simple paint app using HTML canvas and Java Script. Users can change the color and size of the brush.
 
 
